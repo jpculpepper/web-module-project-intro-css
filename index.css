@@ -1,0 +1,71 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    box-sizing:border-box;
+}
+header nav{
+   display:inline;
+  width:100px;
+  padding:10%;
+  border-radius:10px;
+  border:2px solid black;
+  transition:2s;
+  margin:0 5%;
+}
+nav a:first-child {
+    background-color: #FF764E;
+   border-radius:10px;
+}
+nav a:nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+nav a:last-child {
+    background-color: #FFCD69;
+}
+h1{
+    font-family:'Chelsea Market',sans-serif;
+    font-size:5rem;
+    text-align:right;
+}
+.bannertext{
+    text-align:right;
+    font-family:'roboto mono', sans serif;
+    font-size:2rem;
+}
+.block{
+    background-color:#DDB9A3;
+    font-family:'roboto mono', sans serif;
+    text-align:center;
+    margin:10% auto;
+    width:80%;
+    color:white;
+}
+.firebus{
+    text-align:center;
+    font-family:'roboto mono', sans serif;
+    margin:25%;
+}
+img{
+    max-width:40%;
+}
