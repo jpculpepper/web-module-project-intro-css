@@ -23,25 +23,50 @@ time, mark, audio, video {
 *{
     box-sizing:border-box;
 }
-header nav{
-   display:inline;
+.top{
+    display:inline-block;
+    margin-left:35%;
+    margin-bottom:1%;
+    margin-top:1%;
+    
+}
+.plan{
+    background-color:#FF764E;
+    display:inline-block;
   width:100px;
-  padding:10%;
+  padding:5%;
   border-radius:10px;
   border:2px solid black;
-  transition:2s;
-  margin:0 5%;
+  margin-right:65px;
+  color:white;
+  text-decoration:none;
+  text-align:center;
 }
-nav a:first-child {
-    background-color: #FF764E;
-   border-radius:10px;
+.learn{
+    background-color:#5ED3EB;
+    display:inline-block;
+  width:100px;
+  padding:5%;
+  border-radius:10px;
+  border:2px solid black;
+  margin-right:
+  text-decoration:none;
+  text-align:center;
+  color:white;
+  text-decoration:none;
 }
-nav a:nth-child(2) {
-    background-color: #5ED3EB;
-}
-
-nav a:last-child {
-    background-color: #FFCD69;
+.get{
+    background-color:#FFCD69;
+display:inline-block;
+  width:100px;
+  padding:5%;
+  border-radius:10px;
+  border:2px solid black;
+  margin-right:65px;
+  color:white;
+  text-decoration:none;
+  text-align:center; 
+  margin-left:65px;
 }
 h1{
     font-family:'Chelsea Market',sans-serif;
@@ -68,4 +93,10 @@ h1{
 }
 img{
     max-width:40%;
+}
+.bottom{
+    display:inline-block;
+    margin-left:35%;
+    margin-bottom:1%;
+    margin-top:1%; 
 }
